@@ -48,5 +48,12 @@ window.addEventListener("load" ,() =>{
 });
 //////////////////////////////
 
+const menu = document.querySelector(".menu");
+
+menu.addEventListener("click" , () => {
+    document.querySelector(".aside").classList.toggle("aside-hide");
+  
+    
+})
 
 

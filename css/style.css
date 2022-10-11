@@ -646,9 +646,7 @@ box-shadow: 0 0 20px rgba(48, 46, 77,0.15);
     .aside{
         left: -270px;
     }
-    nav{
-        display: none;
-    }
+   
     .main-content{
         padding-left: 0;
     }
@@ -671,6 +669,9 @@ box-shadow: 0 0 20px rgba(48, 46, 77,0.15);
     .home-img{
       padding-top: 50px;
     }
+}
+
+
 @media(max-width:767px){
    
     .contact .contact-form .col-6,
@@ -684,5 +685,30 @@ box-shadow: 0 0 20px rgba(48, 46, 77,0.15);
         flex: 0 0 100%;
         max-width: 100%;
     }
+    
+    .main-content{
+        padding-left: 20px;
+    }  
+    .aside{
+        margin-left: 100%;
+        cursor: pointer;
+    }
+   
+    
 
+    
+  
+
+
+}
+.aside-hide{
+margin-left: 0%;
+}
+.menu{
+   position: absolute;
+   top: 10px;
+   margin-left: 60%;
+   cursor: pointer;
+ 
+  
 }
